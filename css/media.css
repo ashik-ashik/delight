@@ -1,0 +1,132 @@
+
+/* tablet rsponsive */
+
+@media only screen and (min-width:100px) and (max-width:990px){
+        xbar{
+            visibility: hidden;
+    }
+    .top_head {
+        height: 88px;
+        line-height: auto;
+    }
+    .top_head .logo {
+            width:25%;
+    }
+    
+    .social_search {
+        width: 75%;
+    }
+    .navigation-menu{
+        text-align: center ;
+     }
+ 
+    .owl-carousel{
+       z-index: 999;
+    }
+    .child-hero{
+        width: 31%;
+    }
+    .child-hero h3,
+    .inner-project .child-project h3{
+        font-size: 22px;
+ }
+    .middle-child-hero{
+        margin: 0px 20px;
+    }
+    .child-hero .inner-child-hero .image{
+        float: left;
+        width: 18%;
+    }
+    .child-hero .inner-child-hero .text{
+            width: 79%;
+            padding-left: 3%;
+    }
+    .inner-project .child-project , .inner-footer .footer-child{
+        width: 23.6%;
+    }
+}
+
+/* mobile responsive */
+
+@media only screen and (min-width:100px) and (max-width:767px){
+    .inner_header{
+        padding-top: 45px;
+ }
+ 
+    .top_head {
+        overflow: visible;
+    }
+    .social_search {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+        .top_head .logo {
+        float: none;
+        width: 100%;
+        line-height: 30px;
+    }
+        .top_head .logo img{
+            margin-bottom: 20px;
+        width: 60%;
+    }
+    .top_head .social_search {
+        float: none;
+        width: 100%;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .social_search form {
+        width: 50%;
+    }
+    .social_search ul {
+        width: 50%;
+    }
+
+    .child-hero{
+        width: 46.5%;
+        margin-bottom: 20px;
+    }
+    .child-hero h3{
+        text-align: center;
+    }
+    .last-child-hero{
+        float: left;
+        width: 98%;
+    }
+    .last-child-hero h3{
+        margin-top: 40px;
+    }
+    .last-child-hero .comment{
+        float: left;
+        width: 48%;
+    }
+    .last-child-hero .last-comment{
+        margin-left: 4%;
+    }
+    .inner-project .child-project{
+        float: left;
+        width: 48%;
+        margin-top: 20px;
+ }
+}
+
+@media only screen and (max-width:612px){
+    .child-hero{
+        width: 99%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .inner-project .child-project{
+        width: 47%;
+        margin: 0;
+        margin-left: 2%;
+ }
+    .inner-footer .footer-child{
+        float: left;
+        width: 99%;
+        margin: 0;
+        margin-bottom: 20px;
+ }
+}

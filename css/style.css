@@ -1,0 +1,469 @@
+body {
+       margin: 0;
+       padding: 0;
+       font-family: georgia;
+       font-size: 13px;
+       color: #c0c0c0;
+       background:url("../img/pnhtree.jpg") no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+}
+
+.container {
+       max-width: 1000px;
+       width: 100%;
+       margin: 0 auto;
+}
+
+.padding-style {
+       padding: 20px;
+}
+
+img {
+       width: 100%;
+       height: auto;
+}
+.clear{
+       clear: both;
+}
+
+#footer-year, #date{
+       font-family: 'lato';
+}
+/* ######################################################## */
+/* top bar */
+/* ######################################################## */
+
+.top_bar {
+       width: 100%;
+       height: 10px;
+       background: #d24260;
+}
+
+.inner_header {
+       background: #000;
+}
+
+/* ######################################################## */
+/* top header logo and social icons */
+/* ######################################################## */
+
+.top_head {
+
+       height: 140px;
+       line-height: 140px;
+       overflow: hidden;
+}
+
+.top_head .logo {
+       float: left;
+       width: 30%;
+       text-align: center;
+}
+
+.top_head .logo img {
+       width: 100%;
+}
+
+.social_search {
+       float: left;
+       width: 70%;
+       text-align: right;
+}
+
+.social_search ul {
+       float: left;
+       width: 60%;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       margin-right: 0px;
+       text-align: right;
+}
+
+.social_search ul li {
+       display: inline-block;
+       margin-right: 10px;
+}
+
+.social_search ul li a {
+       font-size: 30px;
+}
+
+.social_search form {
+       float: left;
+       width: 40%;
+}
+
+.social_search form input {
+       padding: 8px;
+       border: none;
+       background: #d24260;
+       border-radius: 13px 0 0 13px;
+       color: #fff;
+}
+
+.social_search form button {
+       padding: 8px;
+       margin-left: -3px;
+       outline: none;
+       border: none;
+       background: #d24260;
+       border-radius: 0 13px 13px 0;
+       transition: 0.3s;
+}
+.social_search form button:hover {
+       background: #a52640;
+}
+
+
+/* ######################################################## */
+/* navigation menu style */
+/* ######################################################## */
+
+.navigation-menu {
+       background: linear-gradient(#3a3839, #101010);
+       line-height: 45px;
+       padding: 0px 20px;
+}
+
+.navigation-menu ul {
+       list-style: none;
+       margin: 0;
+       padding: 0;
+}
+
+.navigation-menu ul li {
+       display: inline-block;
+       margin-right: 15px;
+       position: relative;
+       cursor: pointer;
+}
+
+.navigation-menu ul li a {
+       text-decoration: none;
+       font-size: 12px;
+       color: #fff;
+       text-transform: uppercase;
+       padding: 10px 5px;
+       display: block;
+}
+
+.navigation-menu ul li a span {
+       margin-right: 10px;
+       transition: 0.4s;
+}
+
+.navigation-menu ul li:hover a span {
+       color: #d24260;
+}
+
+/* .navigation-menu ul li:hover ul li a span {
+       color: #fff;
+} */
+
+.navigation-menu ul ul {
+       position: absolute;
+       top: 63px;
+       left: 0;
+       background: #3a3839;
+       text-align: center;
+       z-index: 99999999;
+       visibility: hidden;
+       border-radius: 5px;
+}
+
+.navigation-menu ul li:hover ul {
+       visibility: visible;
+}
+
+.navigation-menu ul ul li {
+       display: block;
+       margin: 10px;
+       line-height: 1.3rem;
+}
+
+.navigation-menu ul li ul li:hover a {
+       color: #d24260;
+       transition: 0.3s;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+       height: 16px;
+}
+
+/* ######################################################## */
+/* slider area */
+/* ######################################################## */
+
+.owl-carousel .item img {
+       height: 280px;
+}
+
+.owl-carousel .item .item-txt {
+       background: #0f0f0f;
+       padding: 10px 10px;
+       text-align: center;
+}
+
+
+
+/* ######################################################## */
+/* hero area style */
+/* ######################################################## */
+.inner-hero{
+       background: #1b1b1b;
+       overflow: hidden;
+       padding-bottom: 30px;
+}
+.child-hero{
+       float: left;
+       width: 31%;
+       text-align: right;
+}
+.middle-child-hero{
+       margin: 0px 30px;
+}
+.child-hero h3{
+       font-size: 26px;
+       color: #fff;
+       font-weight: normal;
+       text-align: left;
+}
+.child-hero p{
+       font-size: 13px;
+       color: #999;
+       font-weight: normal;
+       text-align: justify;
+}
+.child-hero a{
+       text-decoration: none;
+       font-size: 13px;
+       color: #d24260;
+       font-weight: normal;
+       text-align: right !important;
+       transition: 0.3s;
+}
+.child-hero a:hover{
+       color: #ff5a7b;
+}
+.child-hero .inner-child-hero{
+       overflow: hidden;
+       margin-bottom: 20px;
+}
+.child-hero .last-hero{
+       margin-bottom: 0px;
+}
+.child-hero .inner-child-hero .image{
+       float: left;
+       width: 30%;
+}
+.child-hero .inner-child-hero .text{
+       float: left;
+       width: 67%;
+       padding-left: 3%;
+       text-align: left;
+}
+.child-hero .inner-child-hero .text h4{
+       color: #999;
+       margin-top: 0;
+       padding-top: 0;
+}
+
+.child-hero .comment strong,
+.child-hero .comment span{
+       color: #989898;
+       font-size: 16px;
+       text-align: right;
+}
+.child-hero .comment strong {
+       font-weight: 600;
+}
+.child-hero .comment span{
+       font-weight: 100;
+       text-transform: uppercase;
+}
+.child-hero .last{
+       margin-top: 50px;
+}
+.child-hero .comment img{
+      width: 30px;
+      display: inline-block;
+      margin-right: 10px;
+}
+
+
+
+/* ######################################################## */
+/* project area style */
+/* ######################################################## */
+
+.inner-project{
+       background: #1b1b1b;
+       overflow: hidden;
+       border-bottom: 1px solid rgb(3, 3, 3);
+       padding-bottom: 20px;
+}
+.border{
+       width: 100%;
+       height: 2px;
+       background: #3a3839;
+       margin-bottom: 40px;
+}
+.inner-project .child-project{
+       float: left;
+       width: 24%;
+       margin-right: 10px;
+}
+.inner-project .last{
+       margin-right: 0px;
+}
+.inner-project .child-project h3{
+       color: #fff;
+       font-size: 26px;
+       font-weight: 500;
+}
+.inner-project .child-project img{
+       width: 100%;
+       height: 150px;
+       margin-bottom: 15px;
+}
+.inner-project .child-project a{
+       text-decoration: none;
+      font-size: 13px;
+      color: #d24260;
+      transition: 0.3s;
+}
+.inner-project .child-project a:hover{
+      color: #ff597a;
+}
+.inner-project .child-project p{
+      font-size: 12px;
+      color: #999;
+}
+
+
+/* ######################################################## */
+/* footer area style here */
+/* ######################################################## */
+
+.inner-footer{
+       background: #201e1d;
+       border-top: 1px solid #464646;
+       border-bottom: 1px solid #000000;
+       overflow: hidden;
+}
+
+.inner-footer .footer-child{
+       float: left;
+       width: 24%;
+       margin-right: 10px;
+}
+.inner-footer .last-footer-child{
+       margin-right: 0px;
+}
+.inner-footer .footer-child h3{
+       font-size: 13px;
+       color: #fff;
+       text-transform: uppercase;
+       font-weight: 500;
+}
+.inner-footer .footer-child p,p a, p strong{
+       font-size: 13px;
+       color: #999;
+       font-weight: 100;
+}
+.inner-footer .footer-child a{
+       text-decoration: none;
+       font-family: 'roboto';
+       font-weight: 400;
+       color: #777;
+       transition: 0.3s;
+}
+.inner-footer .footer-child a:hover{
+       color: #ddd;
+}
+.inner-footer .footer-child ul{
+       list-style: none;
+       margin: 0;
+       padding: 0 30px 0 0 ;
+}
+.inner-footer .footer-child ul li{
+       display: block;
+       margin-bottom: 10px;
+       padding-bottom: 5px;
+       border-bottom: 2px solid #383535;   
+}
+.inner-footer .footer-child .blog{
+       width: 100%;
+       margin-top: 10px;  
+}
+.inner-footer .footer-child .blog h4{
+       margin-bottom: 0px;
+       padding-bottom: 0px;
+       font-weight: 400; 
+}
+.inner-footer .footer-child .blog h5{
+       margin: 0px; 
+       padding: 6px 0px; 
+       font-weight: 100; 
+}
+.inner-footer .footer-child .blog p{
+       margin-top: 0px; 
+       padding-top: 0px; 
+       font-weight: 100; 
+}
+.inner-footer .footer-child .blog #blog-link{
+       color: #d24260;
+       text-align: right;
+       transition: 0.3s;
+}
+.inner-footer .footer-child .blog #blog-link:hover{
+       color: #ff1141;
+}
+.inner-footer .footer-child form{
+       width: 100%;
+}
+.inner-footer .footer-child input{
+       padding: 8px;
+       margin-bottom: 10px;
+       border: none;
+       outline: none;
+       border-radius: 6px;
+       background: #2c2c2c;
+}
+.inner-footer .footer-child input[type='text'],.inner-footer .footer-child input[type='email']{
+       width: 90%;
+}
+.inner-footer .footer-child input[type='submit']{
+       color: #d24260;
+       padding:8px 17px;
+       transition: all 0.3s;
+}
+.inner-footer .footer-child input[type='submit']:hover{
+       color: #eee;
+       background-color: #b11f3c;
+}
+
+
+
+/* ######################################################## */
+/* footer bottom */
+/* ######################################################## */
+
+.inner-footer-bottom{
+       background: #201e1d;
+       border-top: 1px solid #525252;
+       overflow: hidden;
+}
+
+.inner-footer-bottom .footer-bottom .copyright{
+       float: left;
+       width: 60%;
+}
+.inner-footer-bottom .footer-bottom .author{
+       float: left;
+       width: 40%;
+       text-align: right;
+}
+
